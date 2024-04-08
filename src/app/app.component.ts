@@ -1,7 +1,6 @@
 import { Component, OnInit, ElementRef, Renderer2 } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CountryApiService } from './country-api.service';
-import { HttpClientModule } from '@angular/common/http';
 
 @Component({
     selector: 'app-root',
